@@ -31,4 +31,4 @@ function showSlides(n) {
 // Automatic sliding every 3 seconds
 setInterval(() => {
   plusSlides(1);
-}, 3000);
+}, 4000);

@@ -12,7 +12,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: #0f0f0f;
+    background: #ffffff;
   }
 
   nav{
@@ -45,7 +45,7 @@
     text-transform: uppercase;
   }
   a.active,a:hover{
-    background: #1b9bff;
+    background: #f5f123;
     transition: .5s;
   }
   .checkbtn{
@@ -61,6 +61,7 @@
     display: none;
   }
 
+  
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -147,12 +148,13 @@
     to {opacity: 1}
   }
   
-  
+  /* promos */
   .promos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #f5f123;
   }
 
   .promos h1{
@@ -170,7 +172,9 @@
     flex: 1;
     text-align: center;
     padding: 20px;
-    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(27, 27, 27);
+    background-color: #fff;
   }
 
   .col img{

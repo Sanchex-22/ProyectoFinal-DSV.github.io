@@ -1,0 +1,146 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    body{
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+    }
+
+    nav{
+        background: #000000;
+        height: 80px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    label.logo{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    a.active,a:hover{
+        background: #f5f123;
+        transition: .5s;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+
+
+    footer{
+        background-color: #000000;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    footer .div{
+        height: 200px;
+    }
+
+    /* productos */
+    .productos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #f5f123;
+    }
+
+    .productos h1{
+        color: white;
+    }
+    
+    .afiche {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .col{
+        margin: 25px;
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px 2px rgb(27, 27, 27);
+        background-color: #fff;
+      }
+
+    .col img{
+        height: 300px;
+        width: 250px;
+    }
+
+    /* Estilos base del botón */
+.boton-amarillo {
+    background-color: yellow;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos cuando se pasa el mouse por encima */
+  .boton-amarillo:hover {
+    background-color: #ffcc00;
+  }
+  
+  /* Estilos cuando se hace clic */
+  .boton-amarillo:active {
+    background-color: #ffaa00;
+  }
+  
+
+  .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .b1{
+    width: 50%;
+  }
+  .b2{
+    width: 50%;
+  }
